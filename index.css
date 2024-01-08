@@ -1,0 +1,117 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "gilroy";
+}
+html,
+body {
+  width: 100%;
+  height: 100vh;
+}
+#main {
+  width: 100%;
+  height: 100vh;
+  background-color: black;
+}
+#back {
+  width: 100%;
+  height: 100vh;
+}
+#top {
+  pointer-events: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: black;
+}
+#workingarea{
+  position: relative;
+  margin: auto;
+  width: 80%;
+  height: 100vh;
+  max-width: 1920px;
+}
+#nav{
+  width: 100%;
+  padding: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#nav img{
+  height: 60px;
+}
+#nleft,#nright{
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+#nav a{
+  pointer-events: all;
+  color: #fff;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  font-family: "gilroy";
+  text-transform: uppercase;
+  text-decoration: none;
+}
+#hero{
+  position: absolute;
+  top: 50%;                            /* here i wanted to allign item in center so 60 61 62 63 line used */
+  left: 0;
+  transform: translate(0%,-50%);
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+#heroleft{
+  min-width: 50%;
+}
+#heroleft .elem{
+  height: 4.4vw;
+  overflow: hidden;
+}
+#heroleft .elem h1{
+  text-transform: uppercase;
+  line-height: 1;
+  font-family: "kajio";
+  color: #fff;
+  font-weight: 100;
+  font-size: 4vw;
+}
+#heroleft button{
+  pointer-events: all;
+  padding: .2vw 2vw;
+  font-size: 2vw;
+  font-family: "kajiro";
+  margin-top: 5vw;
+}
+#heroright{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  width: 17%;
+  color: #fff;
+}
+#heroright p{
+  text-align: right;
+  font-size: 12px;
+  font-weight: 200;
+}
+#heroright #imagediv{
+  width: 100%;
+  height: 170px;
+  margin-top: 20px;
+  margin-bottom:20px;
+  background-image: url(https://images.unsplash.com/photo-1704235099297-f254cd5776d9?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+  background-size: cover;
+  background-position: center;
+}
+#hehe{
+  margin-bottom: 100px;
+}
+
